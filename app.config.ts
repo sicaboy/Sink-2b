@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  title: '2b.au',
+  title: '2B.au',
   description: 'Shortlinks To Be',
   image: '',
   previewTTL: 24 * 3600, // 24h

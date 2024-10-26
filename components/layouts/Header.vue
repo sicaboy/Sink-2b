@@ -14,6 +14,7 @@ const showMenu = ref(false)
         <div class="flex items-center justify-start w-1/4 h-full pr-4">
           <a
             href="/"
+            title="2B.au"
             class="flex items-center py-4 space-x-2 text-xl font-black text-gray-900 dark:text-gray-100 md:py-0"
           >
             <span
@@ -21,9 +22,11 @@ const showMenu = ref(false)
             >
               <img
                 src="/sink.png"
+                alt="2B.au"
                 class="w-full h-full rounded-full"
               >
             </span>
+            <span class="mx-2">2B.au</span>
           </a>
         </div>
 
@@ -37,6 +40,7 @@ const showMenu = ref(false)
           >
             <a
               href="/"
+              title="2B.au"
               class="inline-flex items-center w-auto h-16 px-4 text-xl font-black leading-none text-gray-900 dark:text-gray-100 md:hidden"
             >
               <span
@@ -44,9 +48,11 @@ const showMenu = ref(false)
               >
                 <img
                   src="/sink.png"
+                  alt="2B.au"
                   class="w-full h-full rounded-full"
                 >
               </span>
+              <span class="mx-2">2B.au</span>
             </a>
             <div class="w-full mx-4" />
             <div
