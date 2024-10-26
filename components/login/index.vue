@@ -10,7 +10,7 @@ const loginFieldConfig = {
   token: {
     inputProps: {
       type: 'password',
-      placeholder: '********',
+      placeholder: '',
     },
   },
 }
@@ -25,7 +25,7 @@ async function onSubmit(form) {
   }
   catch (e) {
     console.error(e)
-    toast.error('Login failed, please try again.', {
+    toast.error('Login failed.', {
       description: e.message,
     })
   }
