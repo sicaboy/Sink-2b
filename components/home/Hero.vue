@@ -19,7 +19,7 @@ const { title, description } = useAppConfig()
       </p>
       <div class="flex flex-col gap-3 mt-6 sm:flex-row" />
     </div>
-    <div class="hidden py-6 md:block">
+    <div class="hidden py-6 sm:block">
       <div
         class="w-[512px]"
         v-html="heroImg"
